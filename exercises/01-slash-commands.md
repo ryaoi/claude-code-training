@@ -1,4 +1,4 @@
-# 演習1: Slash Commands（15分）
+# 演習1: Slash Commands
 
 ## 目的
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 解説（5分）
+## 解説
 
 ### Slash Command とは
 
@@ -136,9 +136,9 @@ $ARGUMENTS について解説してください。
 
 ---
 
-## ハンズオン手順（10分）
+## ハンズオン手順
 
-### Step 1: コマンドファイルを作る（4分）
+### Step 1: コマンドファイルを作る
 
 `sample-project/.claude/commands/explain.md` を新規作成し、以下を貼り付ける:
 
@@ -164,7 +164,7 @@ $ARGUMENTS について、以下のフォーマットで日本語で解説して
 無ければ「特になし」。
 ```
 
-### Step 2: コマンドを実行する（3分）
+### Step 2: コマンドを実行する
 
 Claude Code のプロンプトで:
 
@@ -176,7 +176,7 @@ Claude Code のプロンプトで:
 - `$ARGUMENTS` に「`css/components.css` の `.card` クラス」が入る
 - Claude が `components.css` を読み、`.card` の役割・使われ場所・仕組みを日本語で構造化して返す
 
-### Step 3: 別のものでも試す（3分）
+### Step 3: 別のものでも試す
 
 ```
 /explain css/tokens.css 全体
