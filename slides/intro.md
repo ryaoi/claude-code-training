@@ -59,6 +59,9 @@ header: "Claude Code 1時間ハンズオン"
 
 > 「賢いだけ」じゃなく「**自分仕様にできる**」のが Claude Code の価値。
 
+<!-- 参考: https://code.claude.com/docs/en/quickstart -->
+> 公式入門: https://code.claude.com/docs/en/quickstart
+
 ---
 
 ## 入力の基本: 3つのプレフィックス
@@ -70,6 +73,8 @@ header: "Claude Code 1時間ハンズオン"
 | `!` | シェルコマンドを直接実行 | `!ls css` |
 
 > 特に `@` は今日たくさん使う。「`@` を打つ → ファイルパスが補完される → Enter」で、Claude にファイルを正確に指せる。
+
+> 公式: https://code.claude.com/docs/en/interactive-mode#quick-commands
 
 ---
 
@@ -85,6 +90,8 @@ header: "Claude Code 1時間ハンズオン"
 
 > 詰まったら `Ctrl+C`、やり直したくなったら `Esc Esc`。この2つだけ覚えておけば安心。
 
+> 公式（全ショートカット）: https://code.claude.com/docs/en/interactive-mode#keyboard-shortcuts
+
 ---
 
 ## まず覚えておきたい組み込みコマンド
@@ -97,6 +104,8 @@ header: "Claude Code 1時間ハンズオン"
 | `/model` | 使うモデルを切り替え |
 
 > 使えるコマンド一覧は **`/` だけ打つ** と補完候補で出る。試してみよう。
+
+> 公式（全コマンド）: https://code.claude.com/docs/en/commands
 
 ---
 
@@ -131,6 +140,8 @@ header: "Claude Code 1時間ハンズオン"
 - **CLAUDE.md**: 常時ロード（前提知識）
 - **Skill**: 自動トリガー（Claude が判断）
 
+> 公式: Skills (Slash Commands も含む) https://code.claude.com/docs/en/skills / Memory https://code.claude.com/docs/en/memory
+
 ---
 
 ## 各演習の進め方
@@ -147,14 +158,14 @@ header: "Claude Code 1時間ハンズオン"
 
 ## 今日扱わないもの（名前だけ）
 
-| 機能 | ざっくり何？ |
-|------|-------------|
-| **Subagents** | 別コンテキストで動く専門エージェント |
-| **MCP** | 外部ツール接続のプロトコル |
-| **Hooks** | イベント駆動の自動化 |
-| **Plugins** | 機能セットの配布単位 |
+| 機能 | ざっくり何？ | 公式ドキュメント |
+|------|-------------|-----------------|
+| **Subagents** | 別コンテキストで動く専門エージェント | https://code.claude.com/docs/en/sub-agents |
+| **MCP** | 外部ツール接続のプロトコル | https://code.claude.com/docs/en/mcp |
+| **Hooks** | イベント駆動の自動化 | https://code.claude.com/docs/en/hooks |
+| **Plugins** | 機能セットの配布単位 | https://code.claude.com/docs/en/plugins |
 
-→ 興味があれば公式ドキュメント https://code.claude.com/docs を参照
+→ 全体目次: https://code.claude.com/docs
 
 ---
 
