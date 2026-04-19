@@ -72,7 +72,7 @@ header: "Claude Code 1時間ハンズオン"
 | `@` | **ファイル参照**（パス補完が出る、超便利） | `@css/tokens.css の役割は？` |
 | `!` | シェルコマンドを直接実行 | `!ls css` |
 
-> 特に `@` は今日たくさん使う。「`@` を打つ → ファイルパスが補完される → Enter」で、Claude にファイルを正確に指せる。
+> 「`@` を打つ → ファイルパスが補完される → Enter」で、Claude にファイルを正確に指せる。
 
 > 公式: https://code.claude.com/docs/en/interactive-mode#quick-commands
 
