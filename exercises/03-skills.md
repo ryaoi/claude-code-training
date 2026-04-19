@@ -39,7 +39,7 @@ description が一致した Skill が自動発動
 | 向いてる用途 | **自分が**決まった操作をしたい時 | Claude に**いつでも**使ってほしい能力 |
 
 > 同じことを Slash Command でも Skill でも書けるが、
-> **「自分が呼びたい」=Slash Command、「Claude に勝手に使ってほしい」=Skill** で使い分ける。
+> **「自分が呼びたい」=Slash Command、「Claude に自動で使ってほしい」=Skill** で使い分ける。
 
 ### Skill の格納場所と構造
 
@@ -303,4 +303,4 @@ description: a11y を見る
 - **brand-voice** — 「常に使ってほしい」UI 文言ガイドライン（`description` を「ユーザー向け文言を書く時に使う」と書く）
 
 > **設計のコツ**: 「自分なら**どう頼まれた時にこれを使ってほしい**か」を先に決め、
-> その表現を `description` に詰め込むと、勝手に発動してくれる。
+> その表現を `description` に詰め込むと、自動で発動してくれる。
