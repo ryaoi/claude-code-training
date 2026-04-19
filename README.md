@@ -23,7 +23,7 @@ claude --version
 ### 2. このリポジトリの取得とブラウザ確認
 
 ```bash
-git clone <このリポジトリの URL> claude-code-training
+git clone https://github.com/ryaoi/claude-code-training.git
 cd claude-code-training/sample-project
 open index.html        # macOS の場合
 ```
