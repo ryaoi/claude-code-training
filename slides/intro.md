@@ -41,7 +41,7 @@ header: "Claude Code 1時間ハンズオン"
 ## 環境確認（5分）
 
 - [ ] `claude` コマンドが動く（`claude --version`）
-- [ ] `sample-project/` を `git clone` 済み
+- [ ] このリポジトリを `git clone` 済み
 - [ ] ブラウザで `sample-project/index.html` が開ける
   - 「UI コンポーネント集」のページに Button と Card が見える
 - [ ] エディタでプロジェクトが開けている
