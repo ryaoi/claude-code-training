@@ -10,7 +10,7 @@ Claude Code を初めて使う**コーダー（HTML/CSS 中心）向け**の、6
 
 ### 1. Claude Code のインストール
 
-公式手順: https://docs.claude.com/en/docs/claude-code/quickstart
+公式手順: https://code.claude.com/docs
 
 ```bash
 # 例（npm 経由）
@@ -32,11 +32,11 @@ open index.html        # macOS の場合
 
 > ビルドツールも npm install も不要です。HTML/CSS のみで動きます。
 >
-> **git に詳しくなくて OK**: 当日は `git clone` 以外の git コマンドは使いません。clone でつまずいたら講師にお声がけください。
+> **git に詳しくなくて OK**: `git clone` 以外の git コマンドは使いません。clone でつまずいたら講師にお声がけください。
 
 ---
 
-## 当日の流れ（60分）
+## タイムテーブル（60分）
 
 | 時間 | セクション | 資料 |
 |------|------------|------|

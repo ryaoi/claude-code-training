@@ -15,7 +15,7 @@ header: "Claude Code 1時間ハンズオン"
 
 ## 今日のゴール
 
-月曜から使える「3つの基礎機能」を、実際に動かして理解する:
+「3つの基礎機能」を、実際に動かして理解する:
 
 1. **Slash Commands** — 自分の作業をコマンド化
 2. **CLAUDE.md** — プロジェクトの記憶を持たせる
@@ -47,7 +47,7 @@ header: "Claude Code 1時間ハンズオン"
 - [ ] エディタでプロジェクトが開けている
 
 > 詰まったら手を上げてください。
-> **git に詳しくなくて OK**: 当日は `git clone` 以外の git は使いません。
+> **git に詳しくなくて OK**: `git clone` 以外の git は使いません。
 
 ---
 
@@ -128,7 +128,7 @@ header: "Claude Code 1時間ハンズオン"
 | **Hooks** | イベント駆動の自動化 |
 | **Plugins** | 機能セットの配布単位 |
 
-→ 興味があれば公式ドキュメント https://docs.claude.com/en/docs/claude-code を参照
+→ 興味があれば公式ドキュメント https://code.claude.com/docs を参照
 
 ---
 
