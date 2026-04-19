@@ -1,0 +1,116 @@
+/* ============================
+ * レイアウト
+ * ============================ */
+.page-header {
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-lg);
+}
+
+.page-header__title {
+  margin: 0;
+  font-size: var(--font-size-xl);
+}
+
+.page-header__lead {
+  margin: var(--space-xs) 0 0;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.page-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.page-footer {
+  text-align: center;
+  padding: var(--space-lg);
+  color: var(--color-text-muted);
+}
+
+/* ============================
+ * Section（コンポーネント区切り）
+ * ============================ */
+.section__title {
+  margin: 0 0 var(--space-md);
+  font-size: var(--font-size-lg);
+  border-bottom: 2px solid var(--color-border);
+  padding-bottom: var(--space-sm);
+}
+
+.section__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.section__body--grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.section__note {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+/* ============================
+ * Button
+ * ============================ */
+.btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-md);
+  background-color: var(--color-border);
+  color: var(--color-text);
+  transition: background-color 0.15s ease;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn--primary:hover:not(:disabled) {
+  background-color: var(--color-primary-hover);
+}
+
+.btn--secondary {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background-color: var(--color-secondary-hover);
+}
+
+/* ============================
+ * Card
+ * ============================ */
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.card__title {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--font-size-lg);
+}
+
+.card__body {
+  margin: 0;
+  color: var(--color-text-muted);
+}
