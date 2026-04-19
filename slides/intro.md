@@ -78,8 +78,6 @@ Claude Code はチャットボットではなく、**指示を受けて自律的
 3. **対話で詰める**
    - 一発で当てに行かない。違うと思ったら止めて方針修正
 
-> `Esc` で中断、`Esc Esc` で巻き戻し、`/clear` で履歴リセット。**やり直せる**ので大胆に試そう。
-
 > 公式: https://code.claude.com/docs/en/best-practices
 
 ---
